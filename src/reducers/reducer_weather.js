@@ -7,6 +7,5 @@ export default function(state = [], action) {
       // new syntax
       return [action.payload.data, ...state];
   }
-
   return state;
 }
